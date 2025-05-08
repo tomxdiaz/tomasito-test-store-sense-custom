@@ -10,10 +10,40 @@
   }
 </style>
 
+{% javascript %}
+  // fetch('http://localhost:8080/event/getAllEvents', {
+  //   method: 'POST',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //     Accept: 'application/json',
+  //     'Access-Control-Allow-Origin': '*',
+  //   },
+  // }).then((res) => {
+  //   res.json().then((data) => {
+  //     console.log('data:', data);
+  //   });
+  // });
+  fetch('https://pokeapi.co/api/v2/pokemon/ditto', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      'Access-Control-Allow-Origin': '*',
+    },
+  }).then((res) => {
+    res.json().then((data) => {
+      console.log('poke data:', data);
+    });
+  });
+{% endjavascript %}
+
 <div class="template-404 page-width page-margin center">
   <p>
     {{ 'templates.404.subtext' | t }}
   </p>
+
+  <p>Hola</p>
+
   <h1 class="title">
     {{ 'templates.404.title' | t }}
   </h1>
