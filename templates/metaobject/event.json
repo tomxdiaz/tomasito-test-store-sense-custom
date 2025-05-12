@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div>hello</div>",
+        "custom_liquid": "<div>hello</div>\n<div>{{event.name}}</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
