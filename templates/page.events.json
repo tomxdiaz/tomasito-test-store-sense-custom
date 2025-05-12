@@ -22,7 +22,7 @@
       "type": "custom-liquid",
       "name": "Events List",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<div>asd</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
