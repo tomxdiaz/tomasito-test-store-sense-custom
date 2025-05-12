@@ -20,7 +20,7 @@
     },
     "custom_liquid_yVTqaF": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+      "name": "Events List",
       "settings": {
         "custom_liquid": "",
         "color_scheme": "",
