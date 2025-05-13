@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "event detail custom liquid",
       "settings": {
-        "custom_liquid": "<div>hello</div>\n<div>{{metaobject.name.value}}</div>",
+        "custom_liquid": "<div>event detail custom liquid</div>\n<div>{{metaobject.name.value}}</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
