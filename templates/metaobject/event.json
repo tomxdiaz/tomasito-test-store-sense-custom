@@ -11,7 +11,7 @@
   "sections": {
     "custom_liquid_MFjpFP": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+      "name": "event detail custom liquid",
       "settings": {
         "custom_liquid": "<div>hello</div>\n<div>{{metaobject.name.value}}</div>",
         "color_scheme": "",
