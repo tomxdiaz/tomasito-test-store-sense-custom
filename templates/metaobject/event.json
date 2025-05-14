@@ -7,20 +7,4 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
-  "sections": {
-    "custom_liquid_MFjpFP": {
-      "type": "custom-liquid",
-      "name": "event detail custom liquid",
-      "settings": {
-        "custom_liquid": "<div>event detail custom liquid</div>\n<div>{{metaobject.name.value}}</div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    }
-  },
-  "order": [
-    "custom_liquid_MFjpFP"
-  ]
-}
+{ "sections": { "main": { "type": "event-detail", "settings": {} } }, "order": ["event-detail"] }
