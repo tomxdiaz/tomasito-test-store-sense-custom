@@ -7,4 +7,4 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{ "sections": { "main": { "type": "event-detail", "settings": {} } }, "order": ["event-detail"] }
+{ "sections": { "event-detail": { "type": "event-detail", "settings": {} } }, "order": ["event-detail"] }
